@@ -184,4 +184,5 @@
     text-transform: uppercase;
     border-radius: 8px;
     border: solid 1px;
+    cursor: pointer;
 }
