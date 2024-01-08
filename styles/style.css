@@ -5,8 +5,9 @@
     margin: 0;
     padding: 0;
     /* font-family: 'Inter', sans-serif; */
-    font-family: 'Inter', sans-serif;
+
     font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .container {
@@ -147,4 +148,40 @@
 .party .party-img img {
     width: 300px;
     padding-right: 160px;
+}
+
+.Join-Now {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    padding-top: 80px;
+    padding-bottom: 110px;
+}
+
+.join-text{
+    padding-bottom: 48px;
+}
+.Join-Now .title-color {
+    color: #F00;
+}
+
+.Join-Now button {
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    background: #F00;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 8px;
+    border: solid 1px;
 }
