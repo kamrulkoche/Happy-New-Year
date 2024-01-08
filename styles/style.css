@@ -13,8 +13,8 @@
     max-width: 1320px;
     margin: 0 auto;
     padding-top: 50px;
-
 }
+
 
 .background-img {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
@@ -45,4 +45,106 @@
     font-weight: 900;
     line-height: 95px;
     /* 131.944% */
+}
+
+#discount .container {
+    text-align: center;
+}
+
+#discount .container .section-heading h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#discount .container .section-content h3 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 48px;
+    padding-bottom: 16px;
+}
+
+#discount .container .section-content h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 48px;
+}
+
+#discount .container .section-img {
+    padding-bottom: 120px;
+}
+
+.background-party {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+}
+
+#midnight {
+    padding-bottom: 120px;
+}
+
+.party {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 88px;
+}
+
+.party-text * {
+    margin-bottom: 32px;
+}
+
+.party-text h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    padding-left: 126px;
+    padding-top: 120px;
+
+}
+
+.party-text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 126px;
+    /* 166.667% */
+}
+
+.party-text button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: #070211;
+    margin-left: 135px;
+}
+
+.party .party-img img {
+    width: 300px;
+    padding-right: 160px;
 }
