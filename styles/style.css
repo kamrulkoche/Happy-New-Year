@@ -10,6 +10,8 @@
     font-family: 'Inter', sans-serif;
 }
 
+
+
 .container {
     max-width: 1320px;
     margin: 0 auto;
@@ -143,6 +145,7 @@
     text-transform: uppercase;
     background-color: #070211;
     margin-left: 135px;
+    cursor: pointer;
 }
 
 .party .party-img img {
@@ -164,9 +167,10 @@
     padding-bottom: 110px;
 }
 
-.join-text{
+.join-text {
     padding-bottom: 48px;
 }
+
 .Join-Now .title-color {
     color: #F00;
 }
@@ -185,4 +189,60 @@
     border-radius: 8px;
     border: solid 1px;
     cursor: pointer;
+}
+
+#footer {
+    background-color: black;
+
+}
+
+#footer .contact-text {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 58px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;/
+}
+
+#footer .contact-text .contact-text-right .logo-img {
+    display: flex;
+    gap: 10px;
+    line-height: 1.6;
+}
+
+#footer .contact-text .contact-text-right .logo {
+    width: 24px;
+    padding-top: 8px;
+    height: 24px;
+}
+
+.hr {
+    border:  .2px solid rgb(54, 50, 50);
+}
+
+#footer .container .social-logo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 48px 0;
+}
+
+#footer .container .copy-right {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+    padding-top: 80px;
+    padding-bottom: 58px;
+    line-height: 1.6;
 }
